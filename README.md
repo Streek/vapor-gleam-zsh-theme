@@ -50,12 +50,6 @@ Please open an issue if you notice any color issues or would like more prompt op
 
 ---
 
-## 📸 Screenshots
-
-Add your screenshots to show off your customizations!
-
----
-
 ## 📝 License
 
 MIT License  
