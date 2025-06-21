@@ -20,20 +20,32 @@ Works best with a dark terminal and the [Fira Code Retina](https://github.com/to
 
 ## 🚀 Installation
 
-### Oh My Zsh
+### Oh My Zsh Plugin (Recommended)
 
-1. **Copy** `gleam.zsh-theme` to `~/.oh-my-zsh/custom/themes/`
+1. **Clone** this repository to your Oh My Zsh custom plugins directory:
+    ```bash
+    git clone https://github.com/your-username/vapor-gleam-zsh-theme.git ~/.oh-my-zsh/custom/plugins/vapor-gleam
+    ```
+2. **Add** `vapor-gleam` to your plugins list in `~/.zshrc`:
+    ```zsh
+    plugins=(... vapor-gleam)
+    ```
+3. **Restart** your terminal or run `source ~/.zshrc`
+
+### Oh My Zsh Theme (Alternative)
+
+1. **Copy** `vapor-gleam.zsh-theme` to `~/.oh-my-zsh/custom/themes/`
 2. In your `~/.zshrc`, set:  
     ```zsh
-    ZSH_THEME="gleam"
+    ZSH_THEME="vapor-gleam"
     ```
 
 ### Antidote / Zinit / Manual
 
-1. **Copy** or symlink `gleam.zsh-theme` anywhere (e.g. `~/.zsh/themes/`)
+1. **Copy** or symlink `vapor-gleam.zsh-theme` anywhere (e.g. `~/.zsh/themes/`)
 2. In your `~/.zshrc`:  
     ```zsh
-    source ~/.zsh/themes/gleam.zsh-theme
+    source ~/.zsh/themes/vapor-gleam.zsh-theme
     ```
 
 ### (Optional) Recommended Terminal & Font

@@ -1,7 +1,7 @@
-# Gleam ZSH Theme
+# Vapor Gleam ZSH Theme
 # Author: Keith Connolly <streek@mesaro.com>
 
-# True color sequences for Gleam palette
+# True color sequences for Vapor Gleam palette
 G_PINK="%F{#ffc1eb}"
 G_HEADING="%F{#ffffff}"
 G_ACCENT="%F{#e4c87b}"
