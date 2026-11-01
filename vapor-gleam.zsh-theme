@@ -14,6 +14,7 @@ G_RESET="%f"
 
 parse_git_branch() {
   local branch=$(git branch --show-current 2>/dev/null)
+  branch=${branch//"%"/"%%"}
   [ -n "$branch" ] && echo "${G_KEYWORD}($branch)${G_RESET} "
 }
 
